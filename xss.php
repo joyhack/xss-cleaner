@@ -6,10 +6,10 @@
 
 class xss
 {
-	public $_data 						= [];
-	protected $_options 			= [];
-	public $_erroredFields		= [];
-	protected $_errors				= 0;
+	public $_data          = [];
+	protected $_options 	 = [];
+	public $_erroredFields = [];
+	protected $_errors		 = 0;
 	public $_object;
 
 	/**
