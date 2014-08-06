@@ -1,6 +1,6 @@
 <?php
 /**
-* Written by: WAIYL KARIM
+* Written by: WAIYL KARIM.
 * EMAIL: karimwaiyl@gmail.com
 */
 
