@@ -62,7 +62,7 @@ echo $input->rating;
 ### getting errored fileds
 You can get the errored fileds as followed:
 ```
-echo 'Errors: '.$this->_errors; // errors number
+echo 'Errors: '.$xss->_errors; // errors number
 foreach($xss->_erroredFields as $error)
 {
   echo $error
