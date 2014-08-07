@@ -55,3 +55,14 @@ echo $input->rating;
 `url` 
 
 `ip`
+
+
+### getting errored fileds
+You can get the errored fileds as followed:
+```
+echo 'Errors: '.$this->_errors; // errors number
+foreach($xss->_erroredFields as $error)
+{
+  echo $error
+}
+```
