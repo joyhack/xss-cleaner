@@ -7,7 +7,7 @@ A simple yet effictive PHP class to clean your users' inputs and avoid XSS injec
 ### basic usage
 ```
 $xss = new xss;
-$input = $xss->clean(
+$xss->clean(
   array(
     'first_name' => 'str', 
     'last_name'  => 'str',
@@ -15,7 +15,8 @@ $input = $xss->clean(
     'website'    => 'url',
     'rating'     => 'float',
     'usr_id'     => 'int'
-  ))->get();
+  ));
+$input = $xss->get();
 echo $input['first_name'];
 echo $input['rating'];
 // ...
@@ -27,7 +28,7 @@ Let's take the same example as before:
 
 ```
 $xss = new xss;
-$input = $xss->clean(
+$xss->clean(
   array(
     'first_name' => 'str', 
     'last_name'  => 'str',
@@ -35,7 +36,8 @@ $input = $xss->clean(
     'website'    => 'url',
     'rating'     => 'float',
     'usr_id'     => 'int'
-  ), TRUE)->get();
+  ), TRUE);
+$input = $xss->get();
 echo $input->first_name;
 echo $input->rating;
 // ...
