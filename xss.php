@@ -115,6 +115,7 @@ class xss
 	{
 		if (is_array($array)) {
 			if (!empty($array)) {
+				$object = new stdClass();
 				foreach ($array as $key => $value) {
 				  $object->$key = $value;
 				}
