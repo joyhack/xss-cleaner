@@ -68,3 +68,6 @@ foreach($xss->_erroredFields as $error)
   echo $error
 }
 ```
+
+
+See also XSS Cleander For Laravel Framework: https://github.com/waiylgeek/laravel-xss-cleaner
